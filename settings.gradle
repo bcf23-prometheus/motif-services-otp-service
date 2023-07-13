@@ -1,0 +1,8 @@
+rootProject.name = 'otp_service'
+
+
+include(':libs:domain')
+project(':libs:domain').projectDir = new File(settingsDir, '../../libs/domain')
+
+include(':libs:rest-exception')
+project(':libs:rest-exception').projectDir = new File(settingsDir, '../../libs/rest-exception')
